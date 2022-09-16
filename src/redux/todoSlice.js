@@ -3,7 +3,7 @@ import { createSlice,createAsyncThunk} from '@reduxjs/toolkit'
 export const getTodosAsync = createAsyncThunk( // fetch data from api 1
     'todos/getTodosAsync',
     async () => {
-        const response = await fetch('http://localhost:4000/api/ListSurvive');
+        const response = await fetch(`${PORT}api/ListSurvive`);
         if(response.ok){
             const todos = await response.json();
             return { todos }
