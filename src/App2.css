@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Jacques+Francois&family=Noto+Sans+Thai:wght@300&display=swap');
+
+* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    /* border: 1px solid red; */
+    background-color: #000000;
+    position: relative;
+    min-height: 100vh;
+  
+    width: auto;
+    height: auto;
+  } 
+
+.WrapLogo{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+
+.LogoS2{
+  width: 157px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40.65 22.05'%3E%3Cdefs%3E%3Cstyle%3E.cls-1,.cls-2%7Bisolation:isolate;font-family:AngsanaUPC, AngsanaUPC;%7D.cls-1%7Bfont-size:15.42px;%7D.cls-1,.cls-2,.cls-3%7Bfill:%23fad79e;%7D.cls-2%7Bfont-size:7.54px;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Etest%3C/title%3E%3Ctext class='cls-1' transform='translate(4.78 14.22) scale(1.04 1)'%3ESALEM%3C/text%3E%3Ctext class='cls-2' transform='translate(15.42 18.96) scale(1.08 1)'%3E1692%3C/text%3E%3Cpath class='cls-3' d='M18.11,6.94a8.1,8.1,0,1,0-7.65,12.52A9.23,9.23,0,1,1,18.11,6.94Z' transform='translate(-0.27 -1.05)'/%3E%3C/svg%3E");
+
+}
+
+.LogoH2{
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17.99 18'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23d8ba88;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EH-logo%3C/title%3E%3Ccircle class='cls-1' cx='9' cy='6.33' r='3.66'/%3E%3Cpath class='cls-1' d='M10.2.5a9,9,0,1,0,9,9A9,9,0,0,0,10.2.5Zm5.95,14.24A5.67,5.67,0,0,0,14.66,12c-1.28-1.09-1.8-1.41-2.22-1.4a19.79,19.79,0,0,1-2.24.65A5,5,0,0,1,8,10.61c-.86-.27-2.56,1.45-2.91,2a7.19,7.19,0,0,0-.77,2.21,7.93,7.93,0,1,1,11.8-.12Z' transform='translate(-1.2 -0.5)'/%3E%3C/svg%3E");
+}
+
+
+.Content2 {
+    /* border: 1px solid red; */
+
+    background-image:url('./images/white coif3 1.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+
+
+.input-p1 > input[type="text"]
+{
+    color: #FFFFFF;
+}
+
+.tm {
+    padding-top: 20rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+  
+    color: aliceblue;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+  }
+
+.input-p1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .input-p1 > input{
+    display: block;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    text-align: center;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    width: 100%;
+  }
+
+  .input-p1 > button{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    border: none;
+    background: #D8BA88;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0.7rem 3rem 0.7rem 3rem;
+    border-radius: 19px;
+  }
+
+  .BodyG{
+    height: 10rem;
+    background: #FEF4E2;
+    border-radius: 3rem 3rem  0 0;
+    text-align: center;
+    position: relative;
+  
+  }
+
+  .BtG{
+    width: 17rem;
+    height: 6rem;
+    margin-top: 2rem;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Jacques Francois', serif;
+    font-size: 2rem;
+    background-image:url('./images/Rectangle 7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+  
+  }
+  
+  .foot1{
+    background-color: #000000;
+    /* min-height: 100vh; */
+    width: auto;
+/*   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;  */
+  
+  }
+  
+  .foot1 > div > p{
+  
+    font-size: large;
+    color: #FFFFFF;
+  }
+  
+  .cf1{ 
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    padding: 2rem;
+    font-weight: 900;
+    max-height: 100%;
+  }
+  
+  .seet1{
+    color: #FFFFFF;
+    font-weight: 100;
+  }
+  
+  .copy1{
+    /* padding-top: 1.5rem;
+    padding-bottom: 1rem; */
+    text-align: center;
+    color: #7c7c7c;
+    /* position: absolute;
+    bottom: 0; */
+  }
+
+  @media screen and (min-width :480px){
+  /* .foot1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem; 
+  } */
+
+  .bg3{
+    min-height: 67vh;
+  }
+
+  .LogoS2{
+    width: 300px;
+    height: 150px;
+  
+  }
+
+  .LogoH2{
+    width: 80px;
+    height: 80px;
+  }
+
+  .BodyG{
+    height: 16rem;
+    background: #FEF4E2;
+    border-radius: 3rem 3rem  0 0;
+    text-align: center;
+    position: relative;
+  
+  }
+/* Bug */
+  .BodyG > button{
+
+    height: 50%;
+    margin-top: 5rem;
+    width: 80vw;
+  }
+
+  .BtG{
+    width: 80%;
+    height: 9rem;
+    margin-top: 4rem; 
+  }
+/*  */
+  .wrapping{
+    padding-top: 20vh;
+  }
+  .tm{
+    font-size: 2rem;
+  }  
+  
+ 
+
+}
+
+@media screen and (min-height :900px){
+  .bg3{
+    min-height: 67vh;
+  }
+
+
+}
+
+/* /////////////////MemberPage//////////// */
+
+/* html, 
+body, 
+#background { 
+  width: 100vw;
+  min-height: 100vh;
+  background-image:url('./images/bgMember.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.bg1{
+  width: 100vw;
+  min-height: 100vh;
+  background-image:url('./images/bgMember.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrappMem{
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.St1{
+  padding-top: 2rem;
+  text-align: center;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.St2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #D8BA88;
+  border-bottom: 1px solid white; 
+}
+
+.Wst{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.List-group{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.Wf2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+
+
+.Ws2{
+  padding-left: 1.5rem;
+  display: inline-flex;
+}
+
+.im2{
+  background-image:url('./images/H-log2.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 100%;
+}
+
+
+.tm2{
+  padding-left: 2rem;
+  font-size: 1.7rem;
+  color: #FEF4E2;
+}
+
+.Wf2 > button{
+  margin-right: 1.5rem;
+  width: 53px;
+  height: 25px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  background: #FF3838;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+
+
+/* //////////////////////////////////Bodygrad3///////////////////////////// */
+
+.bgAll3{
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.bg3{
+  min-width: 100vw;
+  background-image:url('./images/bg3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.WrapLogo3{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.Logo3{
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40.46 19.04'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Etest2%3C/title%3E%3Cpath class='cls-1' d='M5.73,14.37H5.51V12.06h.22A1.93,1.93,0,0,0,7.78,14a1.63,1.63,0,0,0,1-.31,1,1,0,0,0,.4-.8,1.21,1.21,0,0,0-.59-1c-.92-.52-1.67-1-2.26-1.33A1.72,1.72,0,0,1,5.44,9,1.58,1.58,0,0,1,6,7.84a2.22,2.22,0,0,1,1.46-.51,3.1,3.1,0,0,1,1.24.26,1.48,1.48,0,0,0,.41.12c.18,0,.3-.12.35-.38h.14V9.66H9.44a2.21,2.21,0,0,0-.71-1.48,2,2,0,0,0-1.24-.45,1.32,1.32,0,0,0-.87.3.91.91,0,0,0-.37.73,1,1,0,0,0,.25.59,5.62,5.62,0,0,0,1.5,1c.51.27.9.48,1.16.65a2.08,2.08,0,0,1,.66.66,1.55,1.55,0,0,1,.27.88,1.7,1.7,0,0,1-.64,1.34,2.35,2.35,0,0,1-1.57.53,4.06,4.06,0,0,1-1.25-.23A2.72,2.72,0,0,0,6,14C5.84,14,5.73,14.12,5.73,14.37Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M18.19,14.22H15.43V14c.47,0,.71-.16.71-.41a2.18,2.18,0,0,0-.21-.7l-.42-1H12.8L12.32,13a1.69,1.69,0,0,0-.17.58c0,.25.27.39.81.43v.18H10.73V14a1.55,1.55,0,0,0,.59-.21,2.9,2.9,0,0,0,.56-1l2.47-5.54h.18L17,13a2.8,2.8,0,0,0,.49.83,1,1,0,0,0,.71.28ZM15.37,11.6,14.18,8.87,13,11.6Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M24.55,12.39,24,14.22H18.52V14h.26a.68.68,0,0,0,.6-.22,1.57,1.57,0,0,0,.15-.8V8.67c0-.44-.06-.72-.2-.84a.83.83,0,0,0-.55-.16h-.26V7.48h3.21v.19a2.35,2.35,0,0,0-.7.08.7.7,0,0,0-.4.2,1.87,1.87,0,0,0-.11.81V13c0,.34.05.55.16.64a1.82,1.82,0,0,0,.92.13h.52a4.81,4.81,0,0,0,1-.07,1.42,1.42,0,0,0,.61-.34,3.2,3.2,0,0,0,.61-1Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M31,12.53l-.61,1.69H25V14h.25a.73.73,0,0,0,.56-.19A1.14,1.14,0,0,0,26,13V8.66c0-.46-.07-.74-.19-.84a1,1,0,0,0-.57-.15H25V7.48h5.4L30.47,9h-.2a1.52,1.52,0,0,0-.4-.9,1.59,1.59,0,0,0-1-.21H27V10.5h1.54a1.47,1.47,0,0,0,.8-.17q.27-.16.3-.81h.19v2.35h-.19q-.06-.69-.36-.84a1.46,1.46,0,0,0-.74-.16H27v2.22a1.16,1.16,0,0,0,.1.61c.07.1.23.14.48.14h1.16a2.56,2.56,0,0,0,1.16-.22,2.87,2.87,0,0,0,.88-1.1Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M40.43,14.22h-3V14h.3a.88.88,0,0,0,.54-.16c.13-.11.2-.38.2-.83V8.55l-2.74,5.67h-.17l-2.7-5.67v4.5c0,.45.06.72.19.83a.92.92,0,0,0,.56.16h.24v.18H31.42V14h.24a.83.83,0,0,0,.53-.16c.15-.11.22-.38.22-.83V8.65a1.22,1.22,0,0,0-.18-.7c-.12-.16-.39-.23-.81-.23V7.48h2L36,12.76l2.5-5.28h2v.19h-.24a.88.88,0,0,0-.54.16c-.14.1-.21.38-.21.82v4.4c0,.44.06.72.19.82a.86.86,0,0,0,.56.17h.24Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M17.45,19H16.11v-.09a.86.86,0,0,0,.32,0,.22.22,0,0,0,.1-.09V16.6a2,2,0,0,0,0-.49.15.15,0,0,0-.17-.12.83.83,0,0,0-.27.07V16L17,15.6H17v2.78a1.71,1.71,0,0,0,0,.32.16.16,0,0,0,.09.12.78.78,0,0,0,.34.05Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M20.52,15.6v.09a1.75,1.75,0,0,0-1.59,1.43,1.37,1.37,0,0,1,.76-.24.8.8,0,0,1,.66.3,1.1,1.1,0,0,1,.24.67,1.24,1.24,0,0,1-.3.78,1,1,0,0,1-1.4.21h0a1.35,1.35,0,0,1-.4-.49,1.57,1.57,0,0,1-.15-.68A1.92,1.92,0,0,1,19,16.21a2,2,0,0,1,1.38-.61Zm-1.63,1.7a3.07,3.07,0,0,0-.05.53,1.89,1.89,0,0,0,.08.53,1,1,0,0,0,.25.38.54.54,0,0,0,.36.14.47.47,0,0,0,.43-.23.83.83,0,0,0,.16-.53,1.32,1.32,0,0,0-.18-.73.56.56,0,0,0-.5-.3A1.19,1.19,0,0,0,18.89,17.3Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M21.08,19V19a1.43,1.43,0,0,0,1-.43,2.05,2.05,0,0,0,.57-1,1.51,1.51,0,0,1-.74.24.84.84,0,0,1-.66-.28,1,1,0,0,1-.25-.7,1.26,1.26,0,0,1,.31-.83,1,1,0,0,1,.8-.35,1,1,0,0,1,.53.15,1.29,1.29,0,0,1,.43.47,1.58,1.58,0,0,1,.17.74,1.91,1.91,0,0,1-.64,1.47,2,2,0,0,1-1.38.6Zm1.65-2.2a1.42,1.42,0,0,0-.08-.54.87.87,0,0,0-.22-.34.51.51,0,0,0-.37-.15.47.47,0,0,0-.43.22,1.06,1.06,0,0,0-.15.55,1.32,1.32,0,0,0,.18.73.53.53,0,0,0,.47.28.94.94,0,0,0,.58-.21A3.25,3.25,0,0,0,22.73,16.83Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M26,18.33l-.22.62h-2.1v-.09A8.68,8.68,0,0,0,25,17.55a1.66,1.66,0,0,0,.35-.88.8.8,0,0,0-.18-.49.64.64,0,0,0-.52-.22.76.76,0,0,0-.78.56h-.1a1,1,0,0,1,1-.93,1,1,0,0,1,.71.25.76.76,0,0,1,.3.61,1.25,1.25,0,0,1-.19.62,4.33,4.33,0,0,1-.72.88c-.36.35-.58.57-.66.63h.93a1.77,1.77,0,0,0,.46,0,.46.46,0,0,0,.3-.22Z' transform='translate(0 0)'/%3E%3Cpath class='cls-1' d='M17.84,5.89a8.1,8.1,0,1,0-7.65,12.52A9.23,9.23,0,1,1,17.84,5.89Z' transform='translate(0 0)'/%3E%3C/svg%3E");
+}
+
+.WrapText3{
+  padding-top: 6rem;
+  padding-left: 2rem;
+}
+
+.WrapText3 > h1{
+  font-size: 3rem;
+  font-family: 'Jacques Francois', serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #D8BA88;
+}
+
+.WrapText3 > p{
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.WrappInput{
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+}
+
+.WrappInput > input{
+  display: block;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  text-align: center;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  width: 100%;
+}
+
+.WrappInput > button{
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  display: block;
+  border: none;
+  background: #D8BA88;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 0.7rem 3rem 0.7rem 3rem;
+  border-radius: 19px;
+}
+
+.WrapOutput {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.WrapOutput > h1{
+  padding-top: 0.5rem;
+  color: #000000;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  border-top: 1px solid black;
+  display: inline-block;
+
+}
+
+.Output{
+  padding-left: 1rem;
+  padding-right: 6rem;
+
+}
+
+.OutM{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  border-top: 1px solid black;
+  padding-top: 0.5rem;
+}
+
+.OutIn{
+ display: flex;
+ align-items: center;
+}
+
+.OutIn > img {
+  height: 100%;
+}
+
+.OutIn > p {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.OutM > button {
+  width: 53px;
+  height: 25px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  background: #FF3838;
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+@media screen and (min-width :480px){
+
+
+
+  .WrapOutput {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  .WrapOutput > h1{
+    font-size: 3rem;
+  }
+
+  .Output{
+    padding-left: 2rem;
+    padding-right: 8rem;
+  }
+
+  .OutIn > img {
+    width: 5rem;
+    height: 100%;
+  }
+
+  .OutIn > p {
+    font-size: 3rem;
+  }
+  
+.OutM > button {
+  width: 100px;
+  height: 53px;
+  font-size: 2rem;
+}
+
+.WrapText3 > h1{
+  font-size: 5rem;
+}
+
+.WrapText3 > p{
+  font-size: 2.5rem;
+}
+
+.Logo3{
+  width: 200px;
+  height: 100px;
+}
+
+}
+
+.BtG:active{
+  color: #000000;
+}
+
+.LogoH2:active{
+  fill: #000000;
+}
+
+
+.Wf2 > button:active{
+
+  background: #646464;
+
+}
