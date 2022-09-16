@@ -1,5 +1,6 @@
 import { createSlice,createAsyncThunk} from '@reduxjs/toolkit'
 
+const PORT = "https://server-backend-saleam.herokuapp.com/"
 export const getTodosAsync = createAsyncThunk( // fetch data from api 1
     'todos/getTodosAsync',
     async () => {
