@@ -17,7 +17,7 @@ export const getTodosAsync = createAsyncThunk( // fetch data from api 1
 
 export const addTodoAsync = createAsyncThunk('todos/addTodoAsync',  // ADD DATA
     async(payload) => {
-        const response = await fetch('http://localhost:4000/api/ListSurvive',{    // fetch จาก
+        const response = await fetch(`${PORT}api/ListSurvive`,{    // fetch จาก
             method: 'POST',                                             
             headers:{
                 'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ export const toggleCompleteAsync = createAsyncThunk( // toggle ไม่ให�
 export const deleteTodoAsync = createAsyncThunk(
     'todo/deleteAsynce', 
     async(payload) =>{
-        const response = await fetch(`http://localhost:4000/api/ListSurvive/${payload.id}`,{
+        const response = await fetch(`${PORT}api/ListSurvive/${payload.id}`,{
             method: 'DELETE',
         })
         
