@@ -22,7 +22,7 @@ function FirstPage() {
 
   return (
       <div>
-        <div onSubmit={onSubmit} className="Content2" >
+        <div  className="Content2" >
             <div className='WrapLogo'>
               <div className='LogoS2'></div>
               <Link to='Member'><div className='LogoH2'></div></Link>
