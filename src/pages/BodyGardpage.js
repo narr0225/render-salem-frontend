@@ -3,8 +3,13 @@ import { useEffect,useState } from "react";
 import ListBodygard from '../components/ListBodygard'
 import { useDispatch, useSelector } from 'react-redux';
 import { getTodosAsync,addTodoAsync } from '../redux/todoBodyguard.js';
+// import ReactLoading from 'react-loading'
+
+
 
 function BodyGardpage() {
+
+  const [loading,setLoading] = useState(true)
 
   const [value, setValue] = useState('');
 
@@ -13,7 +18,10 @@ function BodyGardpage() {
 	const todoo  =useSelector((state) => state.bodys);
 
 	useEffect(()=>{
+    setLoading(true)
 		dispatch(getTodosAsync());
+    setLoading(false)
+
 	},[dispatch])
 
   const onSubmit = (event) => {
@@ -26,13 +34,6 @@ function BodyGardpage() {
     setValue('')
 	};
 
-  // if (isLoading) {
-  //   return (
-  //     <div className='loading'>
-  //       <h1>Loading...</h1>
-  //     </div>
-  //   );
-  // }
 
   return (
     <div className='bgAll3'>
@@ -59,9 +60,20 @@ function BodyGardpage() {
         <h1>คนที่ถูกช่วยคือ</h1>
      </div>
      <ul className='List-group'>
-        {todoo.map((todo) => (
+      {loading ? (
+            <div style={{display: 'flex', justifyContent: 'center'}}>
+              <h1>Loading...</h1>
+            </div>
+          ): (
+              <>
+                {todoo.map((todo) => (
+                  <ListBodygard id={todo._id} title={todo.title}/>
+                ))}
+              </>
+          )}
+        {/* {todoo.map((todo) => (
           <ListBodygard id={todo._id} title={todo.title}/>
-			  ))}
+			  ))} */}
      </ul>
     </div>
   )

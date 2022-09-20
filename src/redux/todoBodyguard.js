@@ -18,7 +18,7 @@ export const getTodosAsync = createAsyncThunk( // fetch data from api 1
 
 export const addTodoAsync = createAsyncThunk('Bodys/addTodoAsync',  // ADD DATA
     async(payload) => {
-        const response = await fetch(`http://localhost:4000/api/Bodyguard`,{    // fetch จาก
+        const response = await fetch(`${PORT}api/Bodyguard`,{    // fetch จาก
             method: 'POST',                                             
             headers:{
                 'Content-Type': 'application/json',
