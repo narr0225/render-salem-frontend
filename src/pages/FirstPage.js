@@ -18,6 +18,7 @@ function FirstPage() {
 				title: value,
 			})
 		);
+    setValue('')
 	};
 
   return (

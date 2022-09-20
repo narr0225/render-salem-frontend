@@ -433,6 +433,11 @@ body,
   width: 100%;
 }
 
+.WrappInput > input[type="text"]
+{
+    color: #FFFFFF;
+}
+
 .WrappInput > button{
   margin: auto;
   margin-top: 1rem;
@@ -467,7 +472,7 @@ body,
 
 .Output{
   padding-left: 1rem;
-  padding-right: 6rem;
+  padding-right: 2rem;
 
 }
 
@@ -524,7 +529,7 @@ body,
 
   .Output{
     padding-left: 2rem;
-    padding-right: 8rem;
+    padding-right: 2rem;
   }
 
   .OutIn > img {
