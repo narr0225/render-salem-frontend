@@ -9,7 +9,7 @@ import { getTodosAsync,addTodoAsync } from '../redux/todoBodyguard.js';
 
 function BodyGardpage() {
 
-  const [loading,setLoading] = useState(true)
+  const [loading,setLoading] = useState(true) //Loading
 
   const [value, setValue] = useState('');
 
@@ -18,9 +18,9 @@ function BodyGardpage() {
 	const todoo  =useSelector((state) => state.bodys);
 
 	useEffect(()=>{
-    setLoading(true)
+    setLoading(true)                    //Loading
 		dispatch(getTodosAsync());
-    setLoading(false)
+    setLoading(false)                   //Loading
 
 	},[dispatch])
 
@@ -60,7 +60,7 @@ function BodyGardpage() {
         <h1>คนที่ถูกช่วยคือ</h1>
      </div>
      <ul className='List-group'>
-      {loading ? (
+      {loading ? (                      //Loading
             <div style={{display: 'flex', justifyContent: 'center'}}>
               <h1>Loading...</h1>
             </div>
