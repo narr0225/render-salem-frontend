@@ -49,14 +49,14 @@ function FirstPage() {
                   </Link>
                 </div>
             </div>
-        </div>
-        <footer className="foot1">
-          <div className="cf1">
-            <p>DearAll<br/>FRIENDS</p>
-            <a href="/" className="seet1">setting</a>
-          </div>
-          <p className="copy1">copyright © 2022 all rights reserved</p>
+            <footer className="foot1">
+              <div className="cf1">
+                <p>DearAll<br/>FRIENDS</p>
+                <a href="/" className="seet1">setting</a>
+              </div>
+              <p className="copy1">copyright © 2022 all rights reserved</p>
         </footer>
+        </div>
       </div>
   );
 };

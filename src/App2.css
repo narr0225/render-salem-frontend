@@ -515,8 +515,6 @@ body,
 
 @media screen and (min-width :480px){
 
-
-
   .WrapOutput {
     padding-top: 2rem;
     padding-left: 2rem;
@@ -558,6 +556,35 @@ body,
   width: 200px;
   height: 100px;
 }
+
+}
+
+@media screen and (min-width :912px){
+
+  #root {
+    display: grid;
+    grid-template-columns: 1fr min(80ch, calc(100% - 19px)) 1fr;
+  }
+  
+  #root > * {
+    grid-column: 2;
+  }
+
+  .WrapLogo{
+    position: relative;
+  }
+
+  .wrapping{
+    padding-top: 5vh;
+  }
+
+  .bg1{
+    width: auto;
+  }
+
+  .bg3{
+    min-width: auto;
+  }
 
 }
 
